@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+#my_card {
+  width: 250px;
+  height: 760px;
+  margin: 20px;
+}
+
+#my_card img {
+  
+  max-height: 400px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#fantasy:hover,
+#history:hover,
+#horror:hover,
+#romance:hover,
+#scifi:hover {
+  color: rgb(93, 123, 123);
+  scale: 110%;
+}
+
+.wrap div {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-text{
+  font-weight: bold;
+  font-size:32px;
+}
