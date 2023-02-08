@@ -37,14 +37,18 @@
   }
 }
 
+#my-container {
+  margin-top: 30px;
+}
+
 #my_card {
   width: 250px;
-  height: 760px;
+  min-height: 600px;
   margin: 20px;
+  cursor: pointer;
 }
 
 #my_card img {
-  
   max-height: 400px;
 }
 
@@ -60,21 +64,11 @@
   justify-content: center;
 }
 
-#fantasy:hover,
-#history:hover,
-#horror:hover,
-#romance:hover,
-#scifi:hover {
-  color: rgb(93, 123, 123);
-  scale: 110%;
-}
-
 .wrap div {
   margin: 10px;
-  cursor: pointer;
 }
 
-.card-text{
+.card-text {
   font-weight: bold;
-  font-size:32px;
+  font-size: 32px;
 }
